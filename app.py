@@ -3,7 +3,7 @@ from openai import OpenAI
 import json
 
 # ====== OpenAI Client ======
-client = OpenAI(api_key="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")  # ضع مفتاحك هنا
+client = OpenAI(api_key="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")  # ضع مفتاحك هنا
 
 # ====== Build the Prompt ======
 def build_prompt(diseases, age, weight, height, activity_level):
